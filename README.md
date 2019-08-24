@@ -2,6 +2,15 @@
 
 clone this repo into home directory then execute script `symlinks.sh`.
 
+# tmux
+
+Don't forget to set the terminal to start up using `tmux`
+
+Any changes to `tmux.conf` requires a reload 
+```
+tmux kill-server
+```
+
 # zsh
 
 ```
@@ -12,7 +21,6 @@ git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 install any additional plugins
 
 - https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
-- Don't forget to set the terminal to start up using `zsh` as the default shell
 
 
 # java
