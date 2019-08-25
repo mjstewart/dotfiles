@@ -2,6 +2,15 @@
 
 clone this repo into home directory then execute script `symlinks.sh`.
 
+# vscode 
+
+on linux vscode freezes after 30 mins, try adding the following settings.
+
+```
+settings.excludeFiles (both user and workspace)
+**/node_modules
+```
+
 # tmux
 
 Don't forget to set the terminal to start up using `tmux`
