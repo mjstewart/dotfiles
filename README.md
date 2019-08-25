@@ -21,6 +21,7 @@ git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 install any additional plugins
 
 - https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
+- https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
 
 
 # java
