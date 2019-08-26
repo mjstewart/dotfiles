@@ -2,6 +2,10 @@
 
 clone this repo into home directory then execute script `symlinks.sh`.
 
+# google chrome
+
+`/usr/bin/google-chrome-stable --restore-last-session --password-store=basic %U`
+
 # vscode 
 
 on linux vscode freezes after 30 mins, try adding the following settings.
@@ -9,6 +13,8 @@ on linux vscode freezes after 30 mins, try adding the following settings.
 ```
 settings.excludeFiles (both user and workspace)
 **/node_modules
+**/bazel*
+**/.bazel*
 ```
 
 # tmux
