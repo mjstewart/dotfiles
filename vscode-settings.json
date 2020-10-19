@@ -1,0 +1,63 @@
+{
+  "alignment": {
+    "operatorPadding": "left"
+  },
+  "daml": {
+    "debug": true,
+    "telemetry": "Disable"
+  },
+  "editor": {
+    "accessibilitySupport": "off",
+    "cursorBlinking": "solid",
+    "formatOnPaste": false,
+    "formatOnSave": false,
+    "minimap": {
+      "enabled": false
+    },
+    "renderControlCharacters": "true",
+    "renderWhitespace": "boundary",
+    "rulers": [
+      120
+    ],
+    "tabSize": 2
+  },
+  "extensions": {
+    "ignoreRecommendations": true
+  },
+  "files": {
+    "autoSave": "afterDelay",
+    "insertFinalNewline": true,
+    "trimFinalNewlines": true,
+    "trimTrailingWhitespace": true
+  },
+  "search": {
+    "location": "panel"
+  },
+  "telemetry": {
+    "enableCrashReporter": false,
+    "enableTelemetry": false
+  },
+  "terminal": {
+    "integrated": {
+      "shell": {
+        "linux": "zsh"
+      }
+    }
+  },
+  "update": {
+    "mode": "none"
+  },
+  "workbench": {
+    "editor": {
+      "enablePreview": false,
+      "highlightModifiedTabs": true
+    },
+    "panel": {
+      "defaultLocation": "right"
+    },
+    "tree": {
+      "indent": 20
+    }
+  },
+  "editor.codeActionsOnSave": null
+}
