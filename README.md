@@ -1,27 +1,27 @@
 # dotfiles
 
-clone this repo into home directory then execute script `symlinks.sh`.
+clone this repo into home directory then execute script `symlinks.sh`
+
+# .bashrc
+
+To start the shell with `tmuxinator` running, add
+
+```
+tmuxinator start dev
+```
 
 # google chrome
 
 `/usr/bin/google-chrome-stable --restore-last-session --password-store=basic %U`
 
-# vscode 
+# vscode
 
-on linux vscode freezes after 30 mins, try adding the following settings.
+install extensions manually
 
-```
-settings.excludeFiles (both user and workspace)
-**/node_modules
-**/bazel*
-**/.bazel*
-```
 
 # tmux
 
-Don't forget to set the terminal to start up using `tmux`
-
-Any changes to `tmux.conf` requires a reload 
+Any changes to `tmux.conf` requires a reload
 ```
 tmux kill-server
 ```
@@ -41,8 +41,12 @@ install any additional plugins
 
 # java
 
+http://adoptopenjdk.net/
+
+setting a symlink is easiest - see `symlinks.sh`, otherwise can also use `update-alternatives`.
+
 manage via update-alternatives which installs java into /usr/bin which is already on the default path.
-Its easy to change jdk doing it like this 
+Its easy to change jdk doing it like this
 
 ```
 sudo update-alternatives --remove java /opt/jdk-12/bin/java
@@ -66,7 +70,7 @@ update-check: never
 Add daml to path either through zshrc or update-alternatives
 
 ```
-# add to zshrc 
+# add to zshrc
 PATH=$PATH:~/.daml/bin
 
 # OR
