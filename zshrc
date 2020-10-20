@@ -106,3 +106,6 @@ alias mci='mvn clean install -DskipTests'
 alias mcit='mvn clean install'
 alias mcp='mvn clean package -DskipTests'
 alias mcpt='mvn clean package'
+
+
+[ -f "/home/matt/.ghcup/env" ] && source "/home/matt/.ghcup/env" # ghcup-env

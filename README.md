@@ -1,13 +1,20 @@
 # dotfiles
 
-clone this repo into home directory then execute script `symlinks.sh`
+clone into home directory then execute script `symlinks.sh`
 
 # .bashrc
 
-To start the shell with `tmuxinator` running, add
+to start the shell with `tmuxinator` running
 
 ```
 tmuxinator start dev
+```
+
+# vim
+
+```
+https://github.com/junegunn/vim-plug
+
 ```
 
 # google chrome
@@ -16,8 +23,7 @@ tmuxinator start dev
 
 # vscode
 
-install extensions manually
-
+`vscode-extensions.sh`
 
 # tmux
 
@@ -57,6 +63,13 @@ sudo update-alternatives --install /usr/bin/java java /opt/jdk-12/bin/java 200
 sudo update-alternatives --install /usr/bin/javac javac /opt/jdk-12/bin/javac 200
 sudo update-alternatives --install /usr/bin/jar jar /opt/jdk-12/bin/jar 200
 ```
+
+# haskell
+
+```
+https://gitlab.haskell.org/haskell/ghcup-hs
+```
+
 
 # daml
 
