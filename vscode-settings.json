@@ -59,5 +59,6 @@
       "indent": 20
     }
   },
-  "editor.codeActionsOnSave": null
+  "haskell.formattingProvider": "none",
+  "haskell.formatOnImportOn": false
 }

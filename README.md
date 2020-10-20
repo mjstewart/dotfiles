@@ -28,6 +28,7 @@ https://github.com/junegunn/vim-plug
 # tmux
 
 Any changes to `tmux.conf` requires a reload
+
 ```
 tmux kill-server
 ```
