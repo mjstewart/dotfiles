@@ -60,5 +60,24 @@
     }
   },
   "haskell.formattingProvider": "none",
-  "haskell.formatOnImportOn": false
+  "haskell.formatOnImportOn": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "rejig.prefixGroups": [
+    "DA"
+  , "DA.Next"
+  , "DA.Finance"
+  , "Daml"
+  , "MyApp.Test"
+  , "MyApp.Main"
+  , "Rejig"
+  ],
+  "rejig.displayImportGroupTitles": true,
+  "rejig.displayImportBorderTop": true,
+  "rejig.displayImportBorderBottom": true,
+  "rejig.writeErrorFile": true
 }

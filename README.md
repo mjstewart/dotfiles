@@ -46,6 +46,14 @@ install any additional plugins
 - https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
 
 
+# npm
+
+via `nvm`
+
+```
+https://github.com/nvm-sh/nvm
+```
+
 # java
 
 http://adoptopenjdk.net/

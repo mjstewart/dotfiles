@@ -4,7 +4,6 @@
 
 set nocompatible
 syntax enable
-set clipboard=unnamedplus
 set number
 set encoding=utf-8
 set mouse=a
@@ -52,6 +51,7 @@ set hlsearch
 set ignorecase
 set smartcase
 
+set clipboard=unnamedplus
 " ---------------------------------------------------------------------------------------------------------------------
 " plugins
 " ---------------------------------------------------------------------------------------------------------------------

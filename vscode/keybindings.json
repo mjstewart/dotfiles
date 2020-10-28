@@ -1,0 +1,13 @@
+[
+  { "key": "ctrl+,", "command": "workbench.action.terminal.focus" },
+  {
+    "key": "ctrl+,",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+enter",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+  }
+]
