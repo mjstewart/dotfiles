@@ -79,5 +79,6 @@
   "rejig.displayImportGroupTitles": true,
   "rejig.displayImportBorderTop": true,
   "rejig.displayImportBorderBottom": true,
-  "rejig.writeErrorFile": true
+  "rejig.writeErrorFile": true,
+  "editor.renderWhitespace": "all"
 }
