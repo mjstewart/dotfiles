@@ -14,5 +14,9 @@ sudo ln -s -f /opt/rejig /usr/bin/rejig
 
 ln -s -f ~/dotfiles/daml-config.yaml ~/.daml/daml-config.yaml
 
+ln -s -f ~/dotfiles/git-templates ~/.git-templates
+git config --global init.templatedir '~/.git-templates'
+chmod -R a+x ~/.git-templates/hooks/
+
 # to delete symlink only (not the file)
 # rm /usr/bin/rejig
