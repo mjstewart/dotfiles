@@ -114,7 +114,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
-export M2_HOME=/opt/apache-maven-3.6.3/bin
+export M2_HOME=/opt/apache-maven-3.6.3
 export M2=$M2_HOME/bin
 
 PATH=$PATH:~/.daml/bin
