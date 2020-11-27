@@ -80,5 +80,9 @@
   "rejig.displayImportBorderTop": true,
   "rejig.displayImportBorderBottom": true,
   "rejig.writeErrorFile": true,
-  "editor.renderWhitespace": "all"
+  "editor.renderWhitespace": "all",
+  "editor.detectIndentation": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

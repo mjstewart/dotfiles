@@ -9,5 +9,15 @@
     "key": "alt+enter",
     "command": "editor.action.quickFix",
     "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+q",
+    "command": "opa.eval.selection",
+    "when": "editorLangId == rego"
+  },
+  {
+    "key": "ctrl+shift+a",
+    "command": "opa.eval.package",
+    "when": "editorLangId == rego"
   }
 ]

@@ -98,3 +98,7 @@ PATH=$PATH:~/.daml/bin
 # OR
 sudo update-alternatives --install /usr/bin/daml daml ~/.daml/bin 200
 ```
+
+# open policy agent
+
+https://www.openpolicyagent.org/docs/latest/#running-opa
