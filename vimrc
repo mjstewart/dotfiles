@@ -2,6 +2,10 @@
 " general
 " ---------------------------------------------------------------------------------------------------------------------
 
+set nu
+set relativenumber
+set hidden
+set noerrorbells
 set nocompatible
 syntax enable
 set number
@@ -17,6 +21,9 @@ set title
 set showcmd
 set showmode
 set undolevels=1000
+set scrolloff=8
+set colorcolumn=80
+set signcolumn=yes
 
 " ---------------------------------------------------------------------------------------------------------------------
 " Whitespace and indention
