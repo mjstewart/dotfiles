@@ -11,6 +11,7 @@
 - fzf fuzzy finder - https://github.com/junegunn/fzf#using-git
 - fd used with fzf - https://github.com/sharkdp/fd#installation
 - lazygit - https://github.com/jesseduffield/lazygit#manual
+- nerdfonts - https://www.chrisatmachine.com/Linux/05-nerd-fonts/
 
 # zsh plugins
 # 
