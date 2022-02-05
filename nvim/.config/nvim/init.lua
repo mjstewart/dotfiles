@@ -3,5 +3,10 @@ require "core.keymaps"
 require "core.plugins"
 require "core.colourscheme"
 require "core.cmp"
-
-
+require "core.lsp"
+require "core.telescope"
+require "core.treesitter"
+require "core.dashboard"
+require "core.autopairs"
+require "core.comment"
+require "core.gitsigns"
