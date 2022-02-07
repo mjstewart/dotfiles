@@ -47,6 +47,13 @@ git clone --depth 1 git@github.com:dexpota/kitty-themes.git ~/.kitty-themes
 ln -s ~/.kitty-themes/themes/Jetbrains_Dracula.conf ~/.dotfiles/kitty/.config/theme.conf
 
 
+# Fonts 
+cd ~/.local/share/fonts 
+curl -fLo "JetBrains Mono Regular Nerd Font Complete" https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete.ttf
+curl -fLo "JetBrains Mono Bold Nerd Font Complete" https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/Bold/complete/JetBrains%20Mono%20Bold%20Nerd%20Font%20Complete.ttf
+curl -fLo "JetBrains Mono Bold Italic Nerd Font Complete" https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/BoldItalic/complete/JetBrains%20Mono%20Bold%20Italic%20Nerd%20Font%20Complete.ttf
+curl -fLo "JetBrains Mono Medium Nerd Font Complete" https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/Medium/complete/JetBrains%20Mono%20Medium%20Nerd%20Font%20Complete.ttf
+
 # 
 
 # stow all directories
