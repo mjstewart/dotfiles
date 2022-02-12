@@ -48,6 +48,11 @@ ln -s ~/.kitty-themes/themes/Jetbrains_Dracula.conf ~/.dotfiles/kitty/.config/th
 
 
 # Fonts 
+# Download nerdfonts then clean up the files to the only of interest
+rm *Winodws*
+find . -type f -iregex '.*Mono.ttf$' -delete
+
+
 cd ~/.local/share/fonts 
 curl -fLo "JetBrains Mono Regular Nerd Font Complete" https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete.ttf
 curl -fLo "JetBrains Mono Bold Nerd Font Complete" https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/Bold/complete/JetBrains%20Mono%20Bold%20Nerd%20Font%20Complete.ttf
