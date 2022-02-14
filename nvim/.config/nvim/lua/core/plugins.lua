@@ -50,6 +50,8 @@ return packer.startup(function(use)
   use "moll/vim-bbye"
   use "kyazdani42/nvim-web-devicons"
   use "kyazdani42/nvim-tree.lua"
+  use 'nvim-lualine/lualine.nvim'
+  use "akinsho/toggleterm.nvim"
 
   -- colour schemes
   use "lunarvim/colorschemes"
