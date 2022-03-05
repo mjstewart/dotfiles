@@ -33,6 +33,7 @@ keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 -- Navigate buffers
 keymap("n", "<S-l>", ":bnext<CR>", opts)
 keymap("n", "<S-h>", ":bprevious<CR>", opts)
+keymap("n", "<S-x>", ":BufferLineCloseRight<CR>", opts)
 
 -- Insert --
 -- Press jk fast to enter
@@ -65,3 +66,17 @@ keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 -- Nvimtree
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 keymap("n", "<leader>f", ":Format<cr>", opts)
+
+-- telescope
+keymap("n", "<leader>ff", ":Telescope find_files<cr>", opts)
+keymap("n", "<leader>ft", ":Telescope live_grep<cr>", opts)
+
+-- zoxide
+keymap("n", "<leader>z", ":lua require'telescope'.extensions.zoxide.list{}<CR>", opts)
+
+keymap(
+	"n",
+	"<leader>r",
+	":lua require'telescope'.extensions.repo.cached_list{file_ignore_patterns={'%..*'}}<CR>",
+	opts
+)

@@ -52,6 +52,8 @@ return packer.startup(function(use)
   use "kyazdani42/nvim-tree.lua"
   use 'nvim-lualine/lualine.nvim'
   use "akinsho/toggleterm.nvim"
+  use "jvgrootveld/telescope-zoxide"
+  use "cljoly/telescope-repo.nvim"
 
   -- colour schemes
   use "lunarvim/colorschemes"

@@ -12,6 +12,8 @@
 - fd used with fzf - https://github.com/sharkdp/fd#installation
 - lazygit - https://github.com/jesseduffield/lazygit#manual
 - nerdfonts - https://www.chrisatmachine.com/Linux/05-nerd-fonts/
+- zoxide - https://github.com/ajeetdsouza/zoxide
+- glow - markdown previewer - https://github.com/charmbracelet/glow (install binary on path ~/.local/share/bin)
 
 # zsh plugins
 # 

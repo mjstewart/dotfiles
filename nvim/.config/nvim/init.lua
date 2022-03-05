@@ -14,3 +14,8 @@ require "core.nvim-tree"
 require "core.bufferline"
 require "core.toggleterm"
 require "core.lualine"
+require "core.zoxide"
+
+require'lspconfig'.hls.setup{}
+
+vim.g.rooter_cd_cmd = 'lcd'
