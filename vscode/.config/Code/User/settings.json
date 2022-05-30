@@ -1,0 +1,7 @@
+{
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "workbench.panel.defaultLocation": "right"
+}
