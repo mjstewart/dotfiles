@@ -41,8 +41,7 @@ local options = {
   helpheight = 12,
   syntax = "on",
   wildmenu = true,                         -- when invoking <tab> completion, show matches in menu    
-  wildmode = "longest:list,full"
-}
+  wildmode = "longest:list,full" }
 
 for k, v in pairs(options) do
   vim.opt[k] = v
