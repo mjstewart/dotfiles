@@ -127,6 +127,7 @@ export NVM_DIR="$HOME/.nvm"
 PATH=$PATH:~/.local/bin
 PATH=$PATH:/usr/local/go/bin
 PATH=$PATH:$(go env GOPATH)/bin
+PATH=$PATH:~/.ghcup/bin
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"

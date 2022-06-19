@@ -40,5 +40,13 @@
     {
         "key": "ctrl+j",
         "command": "workbench.action.navigateDown"
+    },
+    {
+        "key": "ctrl+space ctrl+e",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
     }
 ]
