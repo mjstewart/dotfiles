@@ -13,7 +13,8 @@
 - lazygit - https://github.com/jesseduffield/lazygit#manual
 - nerdfonts - https://www.chrisatmachine.com/Linux/05-nerd-fonts/
 - zoxide - https://github.com/ajeetdsouza/zoxide
-- glow - markdown previewer - https://github.com/charmbracelet/glow (install binary on path ~/.local/share/bin)
+- glow - markdown previewer - https://github.com/charmbracelet/glow (install binary on path ~/.local/bin)
+- hpack - https://github.com/sol/hpack (install binary on path ~/.local/bin)
 
 # zsh plugins
 # 
