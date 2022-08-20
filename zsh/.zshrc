@@ -128,7 +128,7 @@ PATH=$PATH:~/.local/bin
 PATH=$PATH:/usr/local/go/bin
 PATH=$PATH:$(go env GOPATH)/bin
 PATH=$PATH:~/.ghcup/bin
-PATH=$PATH:~/.cargo/bin)
+PATH=$PATH:~/.cargo/bin
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
