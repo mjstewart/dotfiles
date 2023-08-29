@@ -1,10 +1,11 @@
 #!/bin/bash
 
+
 # Before running this script, install dependencies
 
 - https://github.com/ohmyzsh/ohmyzsh
     - https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
-    - https://github.com/zsh-users/zsh-syntax-highlighting
+    - https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
     - https://github.com/zsh-users/zsh-completions
 - https://sw.kovidgoyal.net/kitty/
 - gnu stow
@@ -14,14 +15,12 @@
 - nerdfonts - https://www.chrisatmachine.com/Linux/05-nerd-fonts/
 - zoxide - https://github.com/ajeetdsouza/zoxide
 - glow - markdown previewer - https://github.com/charmbracelet/glow (install binary on path ~/.local/bin)
-- hpack - https://github.com/sol/hpack (install binary on path ~/.local/bin)
 
 # zsh plugins
-# 
-# cd ~/.zsh
-# git clone https://github.com/zsh-users/zsh-autosuggestions
-# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-# git clone git://github.com/zsh-users/zsh-completions.git
+cd ~/.zsh
+git clone https://github.com/zsh-users/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+git clone git://github.com/zsh-users/zsh-completions.git
 
 # fzf
 #

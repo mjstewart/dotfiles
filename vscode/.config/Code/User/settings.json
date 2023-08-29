@@ -20,5 +20,7 @@
   },
   "rust-analyzer.inlayHints.parameterHints.enable": false,
   "rust-analyzer.hover.actions.references.enable": true,
-  "rust-analyzer.inlayHints.bindingModeHints.enable": true
+  "rust-analyzer.inlayHints.bindingModeHints.enable": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "terminal.integrated.shellIntegration.enabled": false
 }
