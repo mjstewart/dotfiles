@@ -1,7 +1,6 @@
 {
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
-  "files.autoSave": "afterDelay",
   "terminal.integrated.defaultProfile.linux": "zsh",
   "workbench.panel.defaultLocation": "right",
   "telemetry.telemetryLevel": "off",
@@ -21,6 +20,7 @@
   "rust-analyzer.inlayHints.parameterHints.enable": false,
   "rust-analyzer.hover.actions.references.enable": true,
   "rust-analyzer.inlayHints.bindingModeHints.enable": true,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "terminal.integrated.shellIntegration.enabled": false
+  "terminal.integrated.shellIntegration.enabled": false,
+  "accessibility.verbosity.diffEditor": false,
+  "files.autoSave": "afterDelay"
 }

@@ -96,6 +96,11 @@ PATH=$PATH:~/.local/bin
 PATH=$PATH:~/.ghcup/bin
 PATH=$PATH:~/.cargo/bin
 
+PATH=$PATH:/opt/go/bin
+
+export GOPATH=~/go
+PATH=$PATH:$GOPATH/bin
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -130,3 +135,4 @@ export FZF_DEFAULT_OPTS='--height 70% --border --layout=reverse'
 
 eval "$(zoxide init zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
