@@ -1,20 +1,11 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+TERM=xterm
 
-# Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="robbyrussell"
 
 plugins=(git vi-mode)
 
-source $ZSH/oh-my-zsh.sh
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-fpath=(~/.zsh-zsh-completions/src $fpath)
-rm -f ~/.zcompdump; compinit
-
-TERM=xterm
 
 # Aliases
 
@@ -33,6 +24,13 @@ PATH=$PATH:$GOPATH/bin
 
 export FZF_DEFAULT_OPTS='--height 70% --border --layout=reverse'
 
+source $ZSH/oh-my-zsh.sh
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+fpath=(~/.zsh-zsh-completions/src $fpath)
+rm -f ~/.zcompdump; compinit
+
 eval "$(zoxide init zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+ 
 
