@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# libxcd stuff for kitty term
+# libssl-dev for sqlx
+sudo apt install -y build-essential git libxcb-xkb-dev libssl-dev
+
 # zsh plugins
 sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
